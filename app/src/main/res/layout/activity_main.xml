@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ramonsl.usointent.MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    >
+
+    <EditText
+        android:id="@+id/txtPara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Para" />
+    <EditText
+        android:id="@+id/txtSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Assunto" />
+    <EditText
+        android:id="@+id/txtMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sua mensagem"
+        android:layout_weight="5"
+        />
+
+    <CheckBox
+        android:id="@+id/chkCopia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Desejo receber uma cópia" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Enviar Email" />
+
+    <Button
+        android:id="@+id/btnActv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Enviar Outra Activity" />
+
+    <Button
+        android:id="@+id/btnObj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Enviar Objeto" />
+
+    <Button
+        android:id="@+id/btnObj2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Enviar Objeto De boa" />
+
+
+</LinearLayout>

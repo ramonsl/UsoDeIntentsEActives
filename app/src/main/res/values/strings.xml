@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Usando Intents</string>
+    <string name="title_activity_msg">msgActivity</string>
+</resources>
